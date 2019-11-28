@@ -9,7 +9,7 @@ It means one thing can take multiple forms.
 It means an object can have multiple types. This means we can store objects with some common behaviour together though they are different classes. A car can be both of vehicle type and car type.
 
 3. What can we use to implement polymorphism in Java?
-We can use classes and interfaces.
+We can use classes, inheritance and interfaces.
 
 4. How many 'forms' can an object take when using polymorphism?
 It can take as many forms as interfaces implemented.
@@ -27,7 +27,7 @@ Composition is when an object contains other objects.
 When the relationship is 'has-a'. For example a car class may contain an engine class object.
 
 8. What is/are the advantage(s) of using composition?
-It allows us to reuse code, design clean api's and allow us to change class behaviour by adapting composite class behaviour.
+It allows us to reuse code, and allow us to change class behaviour by changing composite class behaviour or swapping objects.
 
 9. When an object is destroyed, what happens to all the objects it is composed of?
-They still exist.
+They get destroyed unless saved in another variable.
